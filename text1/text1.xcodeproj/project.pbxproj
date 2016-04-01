@@ -14,6 +14,7 @@
 		A63A7B841CAE510A0082C2AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A63A7B831CAE510A0082C2AE /* Assets.xcassets */; };
 		A63A7B871CAE510A0082C2AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A63A7B851CAE510A0082C2AE /* LaunchScreen.storyboard */; };
 		A63A7B951CAE56110082C2AE /* personA.m in Sources */ = {isa = PBXBuildFile; fileRef = A63A7B941CAE56110082C2AE /* personA.m */; };
+		A63A7B911CAE54EE0082C2AE /* PersonB.m in Sources */ = {isa = PBXBuildFile; fileRef = A63A7B901CAE54EE0082C2AE /* PersonB.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		A63A7B881CAE510A0082C2AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A63A7B931CAE56110082C2AE /* personA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = personA.h; sourceTree = "<group>"; };
 		A63A7B941CAE56110082C2AE /* personA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = personA.m; sourceTree = "<group>"; };
+		A63A7B8F1CAE54EE0082C2AE /* PersonB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonB.h; sourceTree = "<group>"; };
+		A63A7B901CAE54EE0082C2AE /* PersonB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonB.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,7 @@
 			isa = PBXGroup;
 			children = (
 				A63A7B921CAE56000082C2AE /* A */,
+				A63A7B8E1CAE54CE0082C2AE /* B */,
 				A63A7B7A1CAE510A0082C2AE /* AppDelegate.h */,
 				A63A7B7B1CAE510A0082C2AE /* AppDelegate.m */,
 				A63A7B7D1CAE510A0082C2AE /* ViewController.h */,
@@ -83,6 +87,7 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+
 		A63A7B921CAE56000082C2AE /* A */ = {
 			isa = PBXGroup;
 			children = (
@@ -90,6 +95,16 @@
 				A63A7B941CAE56110082C2AE /* personA.m */,
 			);
 			name = A;
+sourceTree = "<group>";
+        };
+		A63A7B8E1CAE54CE0082C2AE /* B */ = {
+			isa = PBXGroup;
+			children = (
+				A63A7B8F1CAE54EE0082C2AE /* PersonB.h */,
+				A63A7B901CAE54EE0082C2AE /* PersonB.m */,
+			);
+			name = B;
+
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,6 +179,7 @@
 			files = (
 				A63A7B951CAE56110082C2AE /* personA.m in Sources */,
 				A63A7B7F1CAE510A0082C2AE /* ViewController.m in Sources */,
+				A63A7B911CAE54EE0082C2AE /* PersonB.m in Sources */,
 				A63A7B7C1CAE510A0082C2AE /* AppDelegate.m in Sources */,
 				A63A7B791CAE510A0082C2AE /* main.m in Sources */,
 			);
@@ -312,6 +328,7 @@
 				A63A7B8D1CAE510A0082C2AE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
